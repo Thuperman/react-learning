@@ -1,0 +1,20 @@
+@import '~antd/dist/antd.css';
+
+.Nav-header {
+  background-color: #282c34;
+  min-height: 100vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Nav-link {
+  color: #61dafb;
+}
+body, html {
+  overflow: hidden;
+}
+
