@@ -28,3 +28,23 @@ footer.ant-layout-footer {
   background: #282C34;
   color: #f0f2f5
 }
+
+.ant-layout-header.Nav-header {
+  padding: 0;
+}
+.ant-layout-header h1 {
+  margin: 0;
+  font-size: xx-large;
+}
+
+main div .ant-col.ant-col-24.a {
+  margin-top: 10vmin;
+}
+
+footer p {
+  margin: 0;
+}
+
+.ant-col.ant-col-12.cntr p {
+  margin: 24px 0 0 0;
+}
