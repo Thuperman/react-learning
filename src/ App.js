@@ -1,42 +1,14 @@
 import React, {useState} from 'react';
 import {Button, Input, Col, Layout, Row } from "antd";
-// import Button from 'react-bootstrap/Button';
 import ListGroup from "react-bootstrap/ListGroup";
 import Alert from "react-bootstrap/Alert"
 import Navigation from './Navigation';
-// import axios from 'axios';
 import './App.css';
 import FetchIp from './FetchIp';
-// import { responsiveArray } from 'antd/lib/_util/responsiveObserve';
 const {Header, Content, Footer } = Layout;
-// let http = require('http');
-// var addr;
-// http.get({'host': 'api.ipify.org', 'port': 80, 'path': '/'}, function(resp) {
-//   resp.on('data', function(ip) {
-//     console.log("My public IP address is: " + ip);
-//     addr = ip;
-//   });
-// });
 
 const App = () => {
-
-  // /// example of using useState which returns a counter [0] and update function [1] (1/3)  /// 
   const [show, setShow] = useState(null);
-//   // const [ip, getIP] = useState('0.0.0.0');
-// const fetchIp = async () => {
-//   let response = await fetch('https://api.ipify.org/?format=json');
-//   let data = await response.json();
-//   return data;
-//     // .then(response => response.json())
-//     // .then(data => {
-//     //   console.log(data.ip);
-//     //   this.setState
-//     // })
-//   }
-//   fetchIp()
-//     .then(data => userIp.push(data.ip));
-
-
 
   return (
     <>      
@@ -107,15 +79,3 @@ const App = () => {
 
 
 export default App;
-
-
-
-
-
-// var http = require('http');
-
-// http.get({'host': 'api.ipify.org', 'port': 80, 'path': '/'}, function(resp) {
-//   resp.on('data', function(ip) {
-//     console.log("My public IP address is: " + ip);
-//   });
-// });
